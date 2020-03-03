@@ -1,7 +1,7 @@
 # esuc-eweek-2020
 This web page is based on https://github.com/CodyHouse/schedule-template.
 
-So far, we have to work on:
+We have to work on:
 1. Update the format
    - Work on css file. Might need to add more class or id tags in index.html
    - Change the color of the event
