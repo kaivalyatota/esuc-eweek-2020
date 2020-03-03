@@ -1,0 +1,225 @@
+<!doctype html>
+<!--https://github.com/CodyHouse/schedule-template-->
+<!--https://codyhouse.co/demo/schedule-template/index.html-->
+<!--https://codepen.io/oltika/pen/GNvdgV-->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Martel+Sans:200" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>ESUC Engineering Week 2020</title>
+</head>
+
+<body>
+    <header>
+    <nav>
+      <div class="nav-wrapper white-text">
+        <a href="http://www.esuc.ucla.edu/#" class="brand-logo"><img src="assets/img/logo-white.png"></a>
+        <a href="http://www.esuc.ucla.edu/#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <div id="title_wrapper" class="hide-on-med-and-down">
+          <div id="title" class="">Engineering Society at</div>
+          <div id="sub-title" class="">University of California, Los Angeles</div>
+        </div>      
+        <ul class="right hide-on-med-and-down">
+          <li><a href="http://www.esuc.ucla.edu/#about">ABOUT</a></li>
+          <li><a href="http://www.esuc.ucla.edu/#" class='dropdown-button' data-beloworigin="true" data-constrainwidth="false" data-hover="true" data-activates='calendar_dropdown'>CALENDARS</a></li>
+
+          <ul id='calendar_dropdown' class='dropdown-content white-text'>
+            <li><a href="http://www.esuc.ucla.edu/engineering_calendar">Engineering and Industry Calendars</a></li>
+            <li><a href="http://www.esuc.ucla.edu/lounge_calendar">ESUC Lounge Calendar</a></li>
+            <li class="divider"></li>
+            <li><a href="http://www.esuc.ucla.edu/add_event">Add Your Event</a></li>
+          </ul>
+
+          <li><a href="http://www.esuc.ucla.edu/#" class='dropdown-button' data-beloworigin="true" data-constrainwidth="false" data-hover="true" data-activates='info_dropdown'>INFO</a></li>
+
+          <ul id='info_dropdown' class='dropdown-content white-text'>
+            <li><a href="http://www.esuc.ucla.edu/pinfo">Promotional Info</a></li>
+            <li><a href="http://www.esuc.ucla.edu/cinfo">Our Club Partners</a></li>
+          </ul>
+
+          <li><a href="https://esuc-eweek-2019.herokuapp.com/" target="_blank">EWEEK</a></li>
+          <li><a href="http://www.esuc.ucla.edu/#officers">OFFICERS</a></li>
+          <li><a href="http://www.esuc.ucla.edu/#sponsors">SPONSORS</a></li>
+        </ul>
+
+        <ul id="mobile-demo" class="side-nav">
+          <li><a href="http://www.esuc.ucla.edu/#about">ABOUT</a></li>
+          <li><a href="http://www.esuc.ucla.edu/#">CALENDARS</a></li>
+
+          <ul class='black-text'>
+            <li><a href="http://www.esuc.ucla.edu/engineering_calendar">Engineering Calendar</a></li>
+            <li><a href="http://www.esuc.ucla.edu/lounge_calendar">ESUC Lounge Calendar</a></li>
+            <li><a href="http://www.esuc.ucla.edu/add_event">Add Your Event</a></li>
+          </ul>
+
+          <li><a href="https://esuc-eweek-2019.herokuapp.com/" target="_blank">EWEEK</a></li>
+          <li><a href="http://www.esuc.ucla.edu/#officers">OFFICERS</a></li>
+          <li><a href="http://www.esuc.ucla.edu/#sponsors">SPONSORS</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <header class="cd-main-header text-center flex flex-column flex-center">
+
+    <h1 class="text-xl">ESUC 2020 Eweek Schedule</h1>
+  </header>
+
+  <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
+    <div class="cd-schedule__timeline">
+      <ul>
+        <li><span>09:00</span></li>
+        <li><span>09:30</span></li>
+        <li><span>10:00</span></li>
+        <li><span>10:30</span></li>
+        <li><span>11:00</span></li>
+        <li><span>11:30</span></li>
+        <li><span>12:00</span></li>
+        <li><span>12:30</span></li>
+        <li><span>13:00</span></li>
+        <li><span>13:30</span></li>
+        <li><span>14:00</span></li>
+        <li><span>14:30</span></li>
+        <li><span>15:00</span></li>
+        <li><span>15:30</span></li>
+        <li><span>16:00</span></li>
+        <li><span>16:30</span></li>
+        <li><span>17:00</span></li>
+        <li><span>17:30</span></li>
+        <li><span>18:00</span></li>
+        <li><span>18:30</span></li>
+        <li><span>19:00</span></li>
+        <li><span>19:30</span></li>
+        <li><span>20:00</span></li>
+        <li><span>20:30</span></li>
+        <li><span>21:00</span></li>
+        <li><span>21:30</span></li>
+        <li><span>22:00</span></li>
+        <li><span>22:30</span></li>
+        <li><span>23:00</span></li>
+      </ul>
+    </div> 
+  
+    <div class="cd-schedule__events">
+      <ul>
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Monday 4/6</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="17:00" data-end="19:00" data-content="event-1-hebocon" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Hebocon</em>
+              </a>
+            </li>
+
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Tuesday 4/7</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="9:00" data-end="12:30"  data-content="event-2-kids" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Kids Day</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="19:00" data-end="21:00"  data-content="event-3-networking" data-event="event-3" href="#0">
+                <em class="cd-schedule__name">Networking Night</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Wednesday 4/8</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="19:00" data-end="21:00" data-content="event-4-talent" data-event="event-4" href="#0">
+                <em class="cd-schedule__name">Talent Show</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Thursday 4/9</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="19:00" data-end="23:00" data-content="event-5-ball" data-event="event-5" href="#0">
+                <em class="cd-schedule__name">Engineers Ball</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Friday 4/10</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="11:00" data-end="15:00"  data-content="event-6-field" data-event="event-6" href="#0">
+                <em class="cd-schedule__name">Field Day</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Saturday 4/11</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="17:00" data-end="20:00" data-content="event-7-smash" data-event="event-7" href="#0">
+                <em class="cd-schedule__name">Ultimate Smash</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="cd-schedule-modal">
+      <header class="cd-schedule-modal__header">
+        <div class="cd-schedule-modal__content">
+          <span class="cd-schedule-modal__date"></span>
+          <h3 class="cd-schedule-modal__name"></h3>
+        </div>
+  
+        <div class="cd-schedule-modal__header-bg"></div>
+      </header>
+  
+      <div class="cd-schedule-modal__body">
+        <div class="cd-schedule-modal__event-info"></div>
+        <div class="cd-schedule-modal__body-bg"></div>
+      </div>
+  
+      <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
+    </div>
+  
+    <div class="cd-schedule__cover-layer"></div>
+  </div> <!-- .cd-schedule -->
+
+  <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
