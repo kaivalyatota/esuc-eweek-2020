@@ -13,4 +13,6 @@ We have to work on:
 5. Write the introduction of each event
    - write all events' .html files
    - add link to FB event page
+6. Fix the font size for nav bar
+   - css might overwrite somewhere
 
