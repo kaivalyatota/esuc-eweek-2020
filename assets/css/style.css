@@ -1113,34 +1113,34 @@ mark{background-color:hsla(355, 90%, 61%, 0.2);background-color:hsla(var(--color
 
 /*THIS PART NEED TO CHANGE FOR SURE*/
 :root{
-	--cd-color-event-1:hsl(199, 25%, 46%);
-	--cd-color-event-1-h:199;
-	--cd-color-event-1-s:25%;
-	--cd-color-event-1-l:46%;
-	--cd-color-event-2:hsl(271, 23%, 26%);
-	--cd-color-event-2-h:271;
-	--cd-color-event-2-s:23%;
-	--cd-color-event-2-l:26%;
-	--cd-color-event-3:hsl(162, 14%, 68%);
-	--cd-color-event-3-h:162;
-	--cd-color-event-3-s:14%;
-	--cd-color-event-3-l:68%;
-	--cd-color-event-4:hsl(31, 89%, 68%);
-	--cd-color-event-4-h:31;
+	--cd-color-event-1:hsl(0, 95%, 35%);
+	--cd-color-event-1-h:0;
+	--cd-color-event-1-s:95%;
+	--cd-color-event-1-l:35%;
+	--cd-color-event-2:hsl(203, 91%, 48%);
+	--cd-color-event-2-h:203;
+	--cd-color-event-2-s:91%;
+	--cd-color-event-2-l:48%;
+	--cd-color-event-3:hsl(203, 91%, 48%);
+	--cd-color-event-3-h:203;
+	--cd-color-event-3-s:91%;
+	--cd-color-event-3-l:48%;
+	--cd-color-event-4:hsl(286, 89%, 35%);
+	--cd-color-event-4-h:286;
 	--cd-color-event-4-s:89%;
-	--cd-color-event-4-l:68%;
-	--cd-color-event-5:hsl(31, 89%, 68%);
-	--cd-color-event-5-h:31;
-	--cd-color-event-5-s:89%;
-	--cd-color-event-5-l:68%;
-	--cd-color-event-6:hsl(31, 89%, 68%);
-	--cd-color-event-6-h:31;
-	--cd-color-event-6-s:89%;
-	--cd-color-event-6-l:68%;
-	--cd-color-event-7:hsl(31, 89%, 68%);
-	--cd-color-event-7-h:31;
-	--cd-color-event-7-s:89%;
-	--cd-color-event-7-l:68%;
+	--cd-color-event-4-l:35%;
+	--cd-color-event-5:hsl(27, 99%, 50%);
+	--cd-color-event-5-h:27;
+	--cd-color-event-5-s:99%;
+	--cd-color-event-5-l:50%;
+	--cd-color-event-6:hsl(122, 97%, 35%);
+	--cd-color-event-6-h:122;
+	--cd-color-event-6-s:97%;
+	--cd-color-event-6-l:35%;
+	--cd-color-event-7:hsl(252, 93%, 42%);
+	--cd-color-event-7-h:252;
+	--cd-color-event-7-s:93%;
+	--cd-color-event-7-l:42%;
 	--cd-color-text:hsl(0, 0%, 13%);
 	--cd-color-text-h:0;
 	--cd-color-text-s:0%;
@@ -1149,7 +1149,7 @@ mark{background-color:hsla(355, 90%, 61%, 0.2);background-color:hsla(var(--color
 	--cd-color-border-h:0;
 	--cd-color-border-s:0%;
 	--cd-color-border-l:92%;
-	--font-primary: 'Source Sans Pro', sans-serif;--schedule-rows-number: 19;
+	--font-primary: "Trebuchet MS", Helvetica, sans-serif;--schedule-rows-number: 19;
 	--schedule-rows-height: 50px
 }
 
